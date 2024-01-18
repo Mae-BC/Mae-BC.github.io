@@ -52,4 +52,45 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  float: center;
+  gap: 10px;
+}
+
+.btn1 {
+  background-color: #61757e;
+  border: #61757e 2px solid;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.btn1:hover {
+  background-color: #acbec6;
+  border: acbec6 5px solid;
+  border-radius: 15px;
+}
+
+.btn2 {
+  background-color: #61757e;
+  border: #61757e 2px solid;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.btn2:hover {
+  background-color: #acbec6;
+  border: acbec6 5px solid;
+  border-radius: 15px;
+}
+
+.btn3 {
+  background-color: #61757e;
+  border: #61757e 2px solid;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.btn3:hover {
+  background-color: #acbec6;
+  border: acbec6 5px solid;
+  border-radius: 15px;
 }
