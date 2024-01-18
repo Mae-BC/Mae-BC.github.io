@@ -1,6 +1,6 @@
 body {
   margin: 0 auto 0 auto; /* Keeps content off the sides of the screen. */
-  font-family: monospace; /* font for the entire page unless classed otherwise. change this later I dont like the font */
+  font-family: ; /* font for the entire page unless classed otherwise. change this later I dont like the font */
   padding-bottom: 20px; /*padding for the bottom, gives space between content and bottom */
   background-color: #e6e1d9;
 }
@@ -12,6 +12,7 @@ body {
     6,
     1fr
   ); /* column layout- 6 in total, splits equally should be responsive. test later. */
+  grid-template-rows: repeat(6, 1fr);
   gap: 20px;
   padding: 0 40px; /* 0 = top and bottom, 40 = sides*/
   grid-template-areas: '. content content content content .'; /* content lay out. full stop = null */
@@ -25,7 +26,7 @@ body {
 
 .top-header {
   background-color: #bfbeae;
-  /*height: 200px;*/
+  height: 90px;
 }
 
 .intro {
@@ -48,49 +49,40 @@ body {
   background-position: bottom left;
 }
 
-.buttons {
-  display: flex;
+.text1 {
   justify-content: center;
   align-items: center;
-  float: center;
-  gap: 10px;
+  text-align: center;
+  font-weight: normal;
 }
 
-.btn1 {
-  background-color: #61757e;
-  border: #61757e 2px solid;
-  border-radius: 15px;
-  transition-duration: 0.4s;
+.text2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
 }
 
-.btn1:hover {
-  background-color: #acbec6;
-  border: acbec6 5px solid;
-  border-radius: 15px;
+.text3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
 }
 
-.btn2 {
-  background-color: #61757e;
-  border: #61757e 2px solid;
-  border-radius: 15px;
-  transition-duration: 0.4s;
+.flower {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
 }
 
-.btn2:hover {
-  background-color: #acbec6;
-  border: acbec6 5px solid;
-  border-radius: 15px;
-}
-
-.btn3 {
-  background-color: #61757e;
-  border: #61757e 2px solid;
-  border-radius: 15px;
-  transition-duration: 0.4s;
-}
-
-.btn3:hover {
-  background-color: #acbec6;
-  border: acbec6 5px solid;
-  border-radius: 15px;
+.container-links {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 17px;
 }
