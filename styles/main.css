@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto 0 auto; /* Keeps content off the sides of the screen. */
+  font-family: monospace; /* font for the entire page unless classed otherwise. change this later I dont like the font */
+  padding-bottom: 20px; /*padding for the bottom, gives space between content and bottom */
+  background-color: #e6e1d9;
+}
+
+/* This is for the grid set up. you shouldn't need to change this. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    1fr
+  ); /* column layout- 6 in total, splits equally should be responsive. test later. */
+  gap: 20px;
+  padding: 0 40px; /* 0 = top and bottom, 40 = sides*/
+  grid-template-areas: '. content content content content .'; /* content lay out. full stop = null */
+}
+
+.content {
+  grid-area: content; /*makes line 17 work correctly*/
+  max-width: 1000px; /*ensures content wont get too big*/
+  width: 100%; /*fills space*/
+}
+
+.top-header {
+  background-color: #bfbeae;
+  /*height: 200px;*/
+}
+
+.intro {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+}
+
+.main-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.divider {
+  background-image: url('../images/line-2.svg');
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
