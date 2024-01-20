@@ -451,3 +451,100 @@ body {
   color: inherit;
   text-decoration: none;
 }
+
+/*Identity and Values CSS*/
+
+.iden-header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.inden-text1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
+
+.inden-text2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
+
+.inden-text3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
+
+.inden-text4 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
+
+.iden-btn-home {
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 5px;
+  background-color: #bfbeae;
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  top: 0%;
+  border-color: #bfbeae;
+}
+
+.iden-btn-home:hover {
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 5px;
+  background-color: #6d6c5b;
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  top: 0%;
+  border-color: #bfbeae;
+}
+
+/*Learning Plan CSS*/
+
+.LP-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
