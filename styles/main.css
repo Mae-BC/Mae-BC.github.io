@@ -548,3 +548,43 @@ body {
   background-color: #bfbeae;
   padding: 10px;
 }
+
+/*EI CSS*/
+
+.EI-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
+
+.EI-btn-home {
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 5px;
+  background-color: #bfbeae;
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  top: 0%;
+  border-color: #bfbeae;
+}
+
+.EI-btn-home:hover {
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 5px;
+  background-color: #6d6c5b;
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  top: 0%;
+  border-color: #bfbeae;
+}
