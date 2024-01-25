@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+  <title>JS-DOM</title>
+</head>
+<body>
+  <header>
+    <h1 class="iden-header">Identity and Values</h1>
+  </header>
+<h3 div class="jan17">26 January 2024</h3></div>
+
+<button class="js-dom-btn-home" type="button">
+<a class="a" href="../index.html"> Home </a>
+</button>
+
+
+<main>
+<h3 class="sub-heading">JavaScript, HTML and CSS</h3>
+
+<p class="js-dom-text">
+JavaScript is a versatile and widely used programming language that is 
+primarily known for adding interactivity and dynamic behavior to web pages. 
+Originally developed for web browsers, it has evolved to be used on both the 
+client and server sides of web development. JavaScript is what makes websites interactive. <br>
+<br>
+HTML is the standard markup language used to create the structure of web pages. 
+It consists of a series of elements represented by tags, defining the different 
+parts of a webpage such as headings, paragraphs, images, links, forms, and more.
+It tells the browser what each part of the webpage is and how it should look. <br>
+<br>
+CSS is a stylesheet language used for describing the presentation 
+of a document written in HTML. It controls the layout, appearance, 
+and formatting of the HTML elements on a webpage. CSS takes the plain elements 
+from HTML and adds style to them
+</p>
+
+<h3 class="sub-heading">Intergation of JavaScript, HTML, and CSS:</h3>
+<h4 class="sub-heading">Embedding JavaScript in HTML:</h4>
+<ul class="js-dom-text">
+<li>JavaScript code is often embedded within HTML using "<script></script>" tags.</li>
+<li>It can be placed in the head or body of an HTML document.</li>
+<li>JavaScript can manipulate the DOM, dynamically altering the content and structure of the webpage.</li>
+</ul>
+
+<h4 class="sub-heading">CSS to HTML:</h4>
+
+<ul class="js-dom-text">
+<li>CSS is linked to HTML using the <link> tag in the head section of an HTML document or included inline using the <style></style> tag. </li>
+<li>CSS rules define the visual style of HTML elements, enhancing the presentation of the webpage.</li>
+</ul>
+
+<h4 class="sub-heading">Event Handling:</h4>  
+<p>
+JavaScript is frequently used to handle user interactions and events, such as button clicks or form submissions.
+These interactions trigger JavaScript functions that may, in turn, modify the DOM or apply CSS styles dynamically.
+In summary, JavaScript, HTML, and CSS work together to create dynamic, interactive, and visually appealing web pages. JavaScript adds functionality, HTML provides structure, and CSS controls the presentation, allowing for the development of rich and responsive web applications.
+</p>
+
+<h3 class="sub-heading">The DOM</h3>
+
+<p class="js-dom-text">
+
+When you open a new tab on your browser it displays a web document. A web
+document is the combination of HTML, CSS and JS working together to build a
+website. There is a hierarchical structure that your browser uses to make sense
+of everything going on. This structure is known as the Document Object Model
+(DOM). Below is a very simplified view of what the DOM would look like:
+</p>
+
+<img class="js-dom-pic" src="//www.kirupa.com/html5/images/DOM_js_72.png" alt="DOM Example">
+
+<p class="js-dom-text">
+Your DOM is made up many kinds
+of things beyond just HTML elements. Everything that makes up your DOM is more
+generically known as nodes. These nodes can be elements, attributes, text
+content, comments, document-related stuff, and various other things you simply
+never think about. Every HTML element you want to access has a particular type
+associated with it, and all of these types extend from the Node base that make
+up all nodes:
+</p>
+
+
+<img class="js-dom-pic" src="//www.kirupa.com/html5/images/node_hierarchy_72.png" alt="Node Example">
+
+<p class="js-dom-text">
+Your
+HTML elements are at the end of a chain that starts with Node and continues with
+Element and HTMLElement before ending with a type (ie: HTMLDivElement,
+HTMLHeadingElement, etc.) that matches the HTML element itself. The properties
+and methods you will see for manipulating HTML elements are introduced at some
+part of this chain. The document object (as seen in the first picture) is the
+gateway to all the HTML elements that make up what gets shown. The thing to keep
+in mind is that the document object does not simply represent a read-only
+version of the HTML document. It is a two-way street where you can read as well
+as manipulate your document at will. Any change you make to the DOM via
+JavaScript is reflected in what gets shown in the browser. This means you can
+dynamically add elements, remove them, move them around, modify attributes on
+them, set inline CSS styles, and perform all sorts of other stuff.
+</p>
+
+
+</main>
+</body>
+</html>
