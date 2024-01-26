@@ -9,7 +9,8 @@
 </head>
 <body>
   <header>
-    <h1 class="iden-header">Identity and Values</h1>
+    <h1 class="iden-header">JavaScript and Friends</h1>
+    <h3 class="sub-heading">JavaScript. What is it? Whats does it do? Who does it work well with?</h3>
   </header>
 <h3 div class="jan17">26 January 2024</h3></div>
 
@@ -19,6 +20,7 @@
 
 
 <main>
+  <!-- // Intro \\ -->
 <h3 class="sub-heading">JavaScript, HTML and CSS</h3>
 
 <p class="js-dom-text">
@@ -38,28 +40,106 @@ and formatting of the HTML elements on a webpage. CSS takes the plain elements
 from HTML and adds style to them
 </p>
 
+
+<!-- // Intergration \\ -->
 <h3 class="sub-heading">Intergation of JavaScript, HTML, and CSS:</h3>
-<h4 class="sub-heading">Embedding JavaScript in HTML:</h4>
+<h5 class="sub-heading">Embedding JavaScript in HTML:</h5>
 <ul class="js-dom-text">
 <li>JavaScript code is often embedded within HTML using "<script></script>" tags.</li>
+<br>
 <li>It can be placed in the head or body of an HTML document.</li>
+<br>
 <li>JavaScript can manipulate the DOM, dynamically altering the content and structure of the webpage.</li>
 </ul>
 
-<h4 class="sub-heading">CSS to HTML:</h4>
+<h5 class="sub-heading">CSS to HTML:</h5>
 
 <ul class="js-dom-text">
 <li>CSS is linked to HTML using the <link> tag in the head section of an HTML document or included inline using the <style></style> tag. </li>
+<br>
 <li>CSS rules define the visual style of HTML elements, enhancing the presentation of the webpage.</li>
 </ul>
 
-<h4 class="sub-heading">Event Handling:</h4>  
-<p>
+
+<!-- // Event Handling \\ -->
+<h5 class="sub-heading">Event Handling:</h5>  
+<p class="js-dom-text">
 JavaScript is frequently used to handle user interactions and events, such as button clicks or form submissions.
 These interactions trigger JavaScript functions that may, in turn, modify the DOM or apply CSS styles dynamically.
 In summary, JavaScript, HTML, and CSS work together to create dynamic, interactive, and visually appealing web pages. JavaScript adds functionality, HTML provides structure, and CSS controls the presentation, allowing for the development of rich and responsive web applications.
 </p>
 
+
+<!-- // Function \\ -->
+<h5 class="sub-heading">What is a Function?</h5>
+
+<p class="js-dom-text">In JavaScript, a function is like a reusable set of instructions that perform a specific task. It's a way to group code together and execute it whenever needed.</p>
+
+<img class="js-dom-pic" src="https://i.ibb.co/9y5ZW6N/js-function.png" alt="js-function">
+
+<h5 class="sub-heading">Why is a Function important?</h5>
+
+<ul class="js-dom-text">
+<li>Reusability: Functions allow you to write a piece of code once and use it many times. This saves effort and makes your code more efficient.</li>
+<br>
+<li>Modularity: Functions break down a program into smaller, manageable parts. Each function focuses on a specific task, making your code easier to understand and maintain.</li>
+<br>
+<li>Readability: Functions make your code more readable. Instead of having a long sequence of code, you can use meaningful function names to describe the actions being performed.</li>
+<br>
+<li>Parameter Passing: Functions can take parameters (inputs) to make them more versatile. These parameters allow you to customize the behavior of the function.</li>
+<br>
+<li>Return Values: Functions can return values, which allows them to produce results that can be used elsewhere in your code.</li>
+<br>
+<li>Encapsulation: Functions help encapsulate logic, meaning you can hide the details of how a certain task is accomplished. This abstraction makes your code more maintainable.</li>
+</ul>
+
+<p class="js-dom-text">Functions are a fundamental building block in JavaScript and many other programming languages. They enhance code organization, readability, and maintainability, making it easier to create complex and efficient programs.</p>
+
+
+
+<!-- // Array \\ -->
+<h5 class="sub-heading">Array</h5>
+
+<p class="js-dom-text">An array in JavaScript is a special variable that can hold multiple values. 
+  It allows you to store and organize data in a single variable. Arrays are useful because they allow
+data to be accessed using the index position and can be easily looped through</p>
+
+<img class="js-dom-pic" src="https://i.ibb.co/tsLsTvB/js-array.png" alt="js-array">
+
+
+<!-- // Control Flow \\ -->
+
+<h5 class="sub-heading">Control Flow</h5>
+
+<p class="js-dom-text">Control flow refers to the order in which statements 
+  are executed in a program. It's about controlling the direction of code execution 
+  based on conditions. So flow control lets you set up instances where the computer is making 
+decisions where it takes past code into consideration. Which I think is pretty neat</p>
+
+
+<!-- // Loops \\ -->
+<h5 class="sub-heading">Loops</h5>
+
+<p class="js-dom-text">Loops are used to use a block of code repeatedly until a specific
+  condition has been meet. Loops are great for making your website go through an array multiple times
+  or until you tell it to stop. Loops make repetitive stuff like that easy and makes your code more efficient.
+</p>
+
+
+<!-- // Objects \\ -->
+<h5 class="sub-heading">Objects</h5>
+
+<p class="js-dom-text">An object in JavaScript is a collection of key-value pairs, 
+  where each key is a string and each value can be any data type, 
+  including arrays and other objects. Objects help structure and organize related information and cam make complex and hierarchical data structures.
+</p>
+
+<p class="js-dom-text">In summary, arrays help you manage lists of data, control flow 
+  structures helps make decisions in your code, loops automate repetitive 
+  tasks, and objects organize data in a structured way. Understanding these concepts is 
+  fundamental to building dynamic and interactive applications in JavaScript.</p>
+
+<!-- // The DOM \\ -->
 <h3 class="sub-heading">The DOM</h3>
 
 <p class="js-dom-text">
@@ -71,6 +151,8 @@ of everything going on. This structure is known as the Document Object Model
 (DOM). Below is a very simplified view of what the DOM would look like:
 </p>
 
+
+<!-- // DOM Example \\ -->
 <img class="js-dom-pic" src="//www.kirupa.com/html5/images/DOM_js_72.png" alt="DOM Example">
 
 <p class="js-dom-text">
@@ -83,8 +165,8 @@ associated with it, and all of these types extend from the Node base that make
 up all nodes:
 </p>
 
-
-<img class="js-dom-pic" src="//www.kirupa.com/html5/images/node_hierarchy_72.png" alt="Node Example">
+<!-- // DOM Nodes Example \\ -->
+<img class="js-dom-pic" src="//www.kirupa.com/html5/images/node_hierarchy_72.png" alt="Node Example" height="400">
 
 <p class="js-dom-text">
 Your
