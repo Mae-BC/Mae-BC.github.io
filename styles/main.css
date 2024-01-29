@@ -682,3 +682,50 @@ body {
   top: 0%;
   border-color: #bfbeae;
 }
+
+/* -- Tapa Wha CSS -- */
+
+.tapa-wha-btn-home {
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 5px;
+  background-color: #bfbeae;
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  top: 0%;
+  border-color: #bfbeae;
+}
+
+.tapa-wha-btn-home:hover {
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 5px;
+  background-color: #6d6c5b;
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  top: 0%;
+  border-color: #bfbeae;
+}
+
+.tapa-Wha-pic {
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
+
+.tapa-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+  justify-content: space-around;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: #bfbeae;
+  padding: 10px;
+}
